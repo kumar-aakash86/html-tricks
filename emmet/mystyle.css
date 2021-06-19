@@ -1,0 +1,28 @@
+body {
+    padding: 20px;
+}
+table,
+th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+ol#list {
+    background-color: aqua;
+}
+
+ol#list > .item {
+    font-size: 14px;
+}
+
+li.item1 {
+    background-color: lightcoral;
+}
+li.item2 {
+    background-color: lightgreen;
+}
+li.item3 {
+    background-color: lightpink;
+}
